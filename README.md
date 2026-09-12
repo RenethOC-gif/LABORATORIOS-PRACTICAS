@@ -11,6 +11,7 @@ Especialista en Ciberseguridad, en formación hacia la ciberseguridad. Este repo
 - **Escalada de privilegios (Windows):** unquoted service paths, WinPEAS, PowerUp.ps1
 - **Cracking de credenciales:** Hydra, John the Ripper, CrackStation
 - **Persistencia:** SSH authorized_keys
+- **Blue Team / SOC:** Splunk (SIEM), Sysmon, análisis de logs de Windows Event Log, creación de alertas y detecciones basadas en MITRE ATT&CK
 
 ## Writeups
 
@@ -21,6 +22,17 @@ Especialista en Ciberseguridad, en formación hacia la ciberseguridad. Este repo
 | [Mr. Robot](writeups/mr-robot.md) | TryHackMe | Linux | WordPress Bruteforce + SUID (nmap) |
 | [Vulnuversity](writeups/vulnuversity.md) | TryHackMe | Linux | File Upload + SUID (systemctl) |
 | [Pivot](writeups/pivot.md) | Academia (Hacker Mentor) | Linux | Drupalgeddon2 + Pivoting |
+
+## Homelab / Blue Team
+
+Proyectos de infraestructura propia orientados a detección y monitorización — a diferencia de los writeups de arriba (máquinas resueltas), aquí construyo el entorno completo y documento hallazgos generados por mí mismo.
+
+| Proyecto | Stack | Técnica principal |
+|---|---|---|
+| [Detección Fuerza Bruta RDP](./homelab-soc/01-deteccion-fuerza-bruta-rdp/) | Splunk + Sysmon + Windows/Kali | MITRE ATT&CK T1110 |
+
+---
+
 
 ## Aviso
 
