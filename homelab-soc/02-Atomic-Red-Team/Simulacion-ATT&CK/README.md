@@ -6,6 +6,6 @@ Usar Atomic Red Team para ejecutar técnicas reales de MITRE ATT&CK en un endpoi
 
 ## Arquitectura
 
-Se reutiliza el mismo lab del Proyecto 1 (Splunk + Sysmon + Universal Forwarder sobre `192.168.54.20`, índice `endpoint`). Ver [writeup de detección de fuerza bruta RDP](../01-deteccion-fuerza-bruta-rdp/) para el detalle de la infraestructura.
+Se reutiliza el mismo lab del Proyecto 1 (Splunk + Sysmon + Universal Forwarder sobre `192.168.54.20`, índice `endpoint`). Ver [writeup de detección de fuerza bruta RDP](homelab-soc/01-deteccion-fuerza-bruta-rdp) para el detalle de la infraestructura.
 
 ---
