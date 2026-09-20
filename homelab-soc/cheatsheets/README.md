@@ -1,4 +1,4 @@
-# Chuleta de Consultas SPL para Análisis SOC
+# Consultas SPL para Análisis SOC
 
 Consultas organizadas por categoría, cada una explicada — no solo copiada. Basado en el trabajo propio de este homelab más patrones documentados por analistas SOC y repositorios de threat hunting de la comunidad (Splunk ThreatHunting App, Splunk Security Essentials, y compilaciones de queries usadas en investigaciones reales).
 
